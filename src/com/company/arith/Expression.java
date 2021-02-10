@@ -1,5 +1,7 @@
 package com.company.arith;
 
+import com.company.machineAPile.Machine;
+
 import java.util.HashMap;
 import java.util.Map;
 

@@ -15,5 +15,8 @@ public class Main {
         Transformer transformer = new Transformer();
         transformer.exp2map(m, e2);
         System.out.println(m);
+        XmlLoader xmlLoader = new XmlLoader();
+        Expression e = xmlLoader.loadFromXml("data/expr.xml");
+        System.out.println(e);
     }
 }
